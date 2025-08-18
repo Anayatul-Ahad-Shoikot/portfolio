@@ -1,24 +1,5 @@
-<?php
-include 'db_con.php';
-session_start();
-if (!isset($_SESSION['visitor_logged'])) {
-    $ip_address = $_SERVER['REMOTE_ADDR'];
-    try {
-        $sql = "INSERT INTO visitors (ip_address) VALUES (:ip_address)";
-        $stmt = $pdo->prepare($sql);
-        $stmt->execute(['ip_address' => $ip_address]);
-        $_SESSION['visitor_logged'] = true;
-    } catch (PDOException $e) {
-        error_log("Error inserting visitor: " . $e->getMessage());
-        echo "Error: " . htmlspecialchars($e->getMessage());
-    }
-}
-$pdo = null;
-?>
-
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
@@ -29,9 +10,7 @@ $pdo = null;
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link href="./main.css" rel="stylesheet">
 </head>
-
 <body class="index-page">
-
     <header id="header" class="header d-flex align-items-center fixed-top">
         <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
             <nav id="navmenu" class="navmenu">
@@ -54,7 +33,7 @@ $pdo = null;
                 <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
             </nav>
             <div style="display:flex; gap:10px; align-items:center;">
-                <span style="color: var(--accent-color);"><i class="bi bi-eye"></i>&nbsp;<span id="visitor-count">--</span></span>
+                <span style="color: var(--accent-color);"><i class="bi bi-eye"></i>&nbsp;<span id="visitor-count">147</span></span>
                 <butt href="" id="msg-btn" onclick="downloadCV()">Download CV</butt>
             </div>
         </div>
