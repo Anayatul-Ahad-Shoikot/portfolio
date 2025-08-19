@@ -42,7 +42,7 @@
     <main class="main">
 
         <section id="hero" class="hero section dark-background">
-            <img src="./img/banner.jpg" alt="" data-aos="zoom-out" loading="lazy">
+            <img src="img/banner.jpg" alt="" data-aos="zoom-out" loading="lazy">
             <div class="container" data-aos="zoom-out" data-aos-delay="100">
                 <h2>Hi, I am</h2>
                 <p>Anayatul <br><span class="typed" data-typed-items="Ahad Shoikot"></span><span
@@ -69,9 +69,9 @@
                         <img src="./img/display_image_me.jpg" class="img-fluid" alt="" loading="lazy" style="transform: scaleX(-1);">
                     </div>
                     <div class="col-lg-8 content">
-                        <h2>Undergraduate Student, CSE</h2>
+                        <h2>Fresh Graduates, CSE</h2>
                         <p class="fst-italic py-3" data-aos="fade-down">
-                            I am an energetic and detail-oriented Computer Science undergraduate student passionate about software & web development with hands on experience. My skills include full-stack development with proficiency in PHP, JavaScript, and HTML/CSS, alongside in HR roles. I am currently leading the GradeSaver platform and have successfully managed projects that enhance user interaction. I am eager to learn and grow in both full-time and freelance roles with my full potentials.
+                            I am a Computer Science graduate passionate about software and web development, with hands-on experience in full-stack development using PHP, JavaScript, and HTML/CSS. Currently leading the GradeSaver platform, I focus on front-end development with React, Next.js, and modern JavaScript frameworks to build interactive and user-friendly applications. I am eager to grow through full-time and freelance opportunities while enhancing my expertise in front-end technologies.
                         </p>
                         <div class="row">
                             <div class="col-lg-6">
@@ -142,7 +142,7 @@
                         <div class="resume-item" data-aos="fade-right" data-aos-delay="100">
                             <h4>Founder & Lead Dveloper</h4>
                             <p>
-                                <a href="https://gradesaver.free.nf">GradeSaver</a><br>
+                                <a href="https://gradesaverbd.netlify.app">GradeSaver</a><br>
                                 <i>Founded & developed an online learning platform for university student, enhancing their study experience.</i><br>
                                 <i>PHP, HTML5, CSS3, JavaScript, PHPMailer, OTP, Active notification and logs, Custom authentication system and more .</i>
                             </p>
@@ -154,9 +154,9 @@
                                 <a href="https://ba-systems.com">Business Automation Ltd.</a><br>
                                 <i>Worked in Laravel blade views, styling, session & cookies handling, RESTapi testing with postman, ORM model and basics of react.</i>
                             </p>
-                            <h5>( July 2024- November 2024 )</h5><br>
+                            <h5>( July 2024 - September 2024 )</h5><br>
                             <p>
-                                <a href="./BA-Certificate.png" target="_new">View Certificate</a>
+                                <a href="img/BA-Certificate.png" target="_new">View Certificate</a>
                             </p>
                         </div>
                         <div class="resume-item" data-aos="fade-right" data-aos-delay="100">
@@ -286,7 +286,7 @@
                         </div>
 
                         <div class="col-lg-2 col-md-3 col-sm-4 col-6 isotope-item d-flex justify-content-center align-items-center">
-                            <img src="./img/skills/js.png" class="img-fluid" alt="JavaScript" loading="lazy" width="80px">
+                            <img src="./img/skills/JS.png" class="img-fluid" alt="JavaScript" loading="lazy" width="80px">
                         </div>
 
                         <div class="col-lg-2 col-md-3 col-sm-4 col-6 isotope-item d-flex justify-content-center align-items-center">
@@ -302,15 +302,7 @@
                         </div>
 
                         <div class="col-lg-2 col-md-3 col-sm-4 col-6 isotope-item d-flex justify-content-center align-items-center">
-                            <img src="./img/skills/laravel.png" class="img-fluid" alt="Laravel" loading="lazy" width="80px">
-                        </div>
-
-                        <div class="col-lg-2 col-md-3 col-sm-4 col-6 isotope-item d-flex justify-content-center align-items-center">
                             <img src="./img/skills/react.png" class="img-fluid" alt="React" loading="lazy" width="80px">
-                        </div>
-
-                        <div class="col-lg-2 col-md-3 col-sm-4 col-6 isotope-item d-flex justify-content-center align-items-center">
-                            <img src="./img/skills/django.png" class="img-fluid" alt="Django" loading="lazy" width="80px">
                         </div>
 
                         <div class="col-lg-2 col-md-3 col-sm-4 col-6 isotope-item d-flex justify-content-center align-items-center">
