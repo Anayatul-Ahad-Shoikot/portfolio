@@ -69,7 +69,7 @@
                         <img src="./img/display_image_me.jpg" class="img-fluid" alt="" loading="lazy" style="transform: scaleX(-1);">
                     </div>
                     <div class="col-lg-8 content">
-                        <h2>Fresh Graduates, CSE</h2>
+                        <h2>Fresh Graduate, CSE</h2>
                         <p class="fst-italic py-3" data-aos="fade-down">
                             I am a Computer Science graduate passionate about software and web development, with hands-on experience in full-stack development using PHP, JavaScript, and HTML/CSS. Currently leading the GradeSaver platform, I focus on front-end development with React, Next.js, and modern JavaScript frameworks to build interactive and user-friendly applications. I am eager to grow through full-time and freelance opportunities while enhancing my expertise in front-end technologies.
                         </p>
@@ -100,11 +100,6 @@
                             </div>
                             <div class="col-lg-6">
                                 <ul>
-                                    <li data-aos="fade-left">
-                                        <i class="bi bi-caret-right-fill"></i>
-                                        <strong class="highLight">Occupation:</strong>
-                                        <span>Student, Intern</span>
-                                    </li>
                                     <li data-aos="fade-left">
                                         <i class="bi bi-caret-right-fill"></i>
                                         <strong class="highLight">Email:</strong>
@@ -341,19 +336,19 @@
                 <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
                     <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
                         <li data-filter="*" class="filter-active">All</li>
-                        <li data-filter=".filter-Apps">Apps</li>
+                        <li data-filter=".filter-Apps">Full-Stack</li>
                         <li data-filter=".filter-Electronics">Electronics</li>
-                        <li data-filter=".filter-Figma">Figma</li>
+                        <li data-filter=".filter-FE">FrontEnd</li>
                     </ul>
                     <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
                         <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-Apps">
                             <div class="portfolio-content h-100">
-                                <img src="./img/projects/Gradesaver.png" class="img-fluid" alt="" loading="lazy">
+                                <img src="img/projects/Gradesaver.png" class="img-fluid" alt="" loading="lazy">
                                 <div class="portfolio-info">
-                                    <h4>Online Learning Platform</h4>
+                                    <h4>GradeSaver</h4>
                                     <p>A self-designed online learning platform for students</p>
-                                    <a href="./project_details.php?id=1" title="More Details" class="details-link"><i
-                                            class="bi bi-link-45deg"></i></a>
+                                    <a href="https://gradesaverbd.netlify.app/" title="Live Preview" class="preview-link"><i class="bi bi-tv"></i></a>
+                                    <a href="https://github.com/Anayatul-Ahad-Shoikot/gradesaver_light" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -363,11 +358,8 @@
                                 <div class="portfolio-info">
                                     <h4>Faculty Management System</h4>
                                     <p>A complete solution for faculty & course management</p>
-                                    <a href="./img/projects/Web_project.png" title="Faculty Management System"
-                                        data-gallery="portfolio-gallery-Apps" class="glightbox preview-link"><i
-                                            class="bi bi-zoom-in"></i></a>
-                                    <a href="./project_details.php?id=1" title="More Details" class="details-link"><i
-                                            class="bi bi-link-45deg"></i></a>
+                                    <a href="img/projects/Web_project.png" title="Faculty Management System" class="preview-link"><i class="bi bi-zoom-in"></i></a>
+                                    <a href="./project_details.php?id=1" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -377,11 +369,18 @@
                                 <div class="portfolio-info">
                                     <h4>Project Ababil</h4>
                                     <p>Enemy detecting real-time scout drone</p>
-                                    <a href="./img/projects/project_ababil.jpg" title="Project Ababil"
-                                        data-gallery="portfolio-gallery-Electronics" class="glightbox preview-link"><i
-                                            class="bi bi-zoom-in"></i></a>
-                                    <a href="./project_details.php?id=2" title="More Details" class="details-link"><i
-                                            class="bi bi-link-45deg"></i></a>
+                                    <a href="img/projects/project_ababil.jpg" title="Project Ababil" class="preview-link" target="_new"><i class="bi bi-zoom-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-FE">
+                            <div class="portfolio-content h-100">
+                                <img src="img/projects/YouTube_clone.png" class="img-fluid" alt="" loading="lazy">
+                                <div class="portfolio-info">
+                                    <h4>YouTube - cloned</h4>
+                                    <p>Proper Youtube frontend cloned by html and css</p>
+                                    <a href="https://youtube-clone-six-self.vercel.app/" class="preview-link"><i class="bi bi-zoom-in"></i></a>
+                                    <a href="https://github.com/Anayatul-Ahad-Shoikot/Youtube_Clone" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -391,52 +390,51 @@
                                 <div class="portfolio-info">
                                     <h4>CareSerenity</h4>
                                     <p>A platform for parents & organizations</p>
-                                    <a href="./img/projects/DBMS_project.png" title="CareSerenity"
-                                        data-gallery="portfolio-gallery-Apps" class="glightbox preview-link"><i
-                                            class="bi bi-zoom-in"></i></a>
-                                    <a href="./project_details.php?id=3" title="More Details" class="details-link"><i
-                                            class="bi bi-link-45deg"></i></a>
+                                    <a href="img/projects/DBMS_project.png" title="CareSerenity" class="preview-link" target="_new"><i class="bi bi-zoom-in"></i></a>
+                                    <a href="https://github.com/Anayatul-Ahad-Shoikot/Orphanage_Platform_With_Management_System" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-Apps">
                             <div class="portfolio-content h-100">
-                                <img src="./img/projects/AOOP_project.jpg" class="img-fluid" alt="" loading="lazy">
+                                <img src="img/projects/AOOP_project.jpg" class="img-fluid" alt="" loading="lazy">
                                 <div class="portfolio-info">
                                     <h4>Medimate</h4>
                                     <p>Telemedicine app that can help you while you are at home</p>
-                                    <a href="./img/projects/AOOP_project.jpg" title="Medimate" data-gallery="portfolio-gallery-Apps"
-                                        class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                                    <a href="./project_details.php?id=4" title="More Details" class="details-link"><i
-                                            class="bi bi-link-45deg"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-Apps">
-                            <div class="portfolio-content h-100">
-                                <img src="./img/projects/careserenity2.png" class="img-fluid" alt="" loading="lazy">
-                                <div class="portfolio-info">
-                                    <h4>CareSerenity 2.0</h4>
-                                    <p>Am advanced platform for parents & organizations</p>
-                                    <a href="./img/projects/careserenity2.png" title="CareSerenity"
-                                        data-gallery="portfolio-gallery-Apps" class="glightbox preview-link"><i
-                                            class="bi bi-zoom-in"></i></a>
-                                    <a href="./project_details.php?id=6" title="More Details" class="details-link"><i
-                                            class="bi bi-link-45deg"></i></a>
+                                    <a href="img/projects/AOOP_project.jpg" title="Medimate" class="preview-link" target="_new"><i class="bi bi-zoom-in"></i></a>
+                                    <a href="https://github.com/Anayatul-Ahad-Shoikot/medimate" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-Electronics">
                             <div class="portfolio-content h-100">
-                                <img src="./img/projects/Vault_security.jpg" class="img-fluid" alt="" loading="lazy">
+                                <img src="img/projects/Vault_security.jpg" class="img-fluid" alt="" loading="lazy">
                                 <div class="portfolio-info">
-                                    <h4>VSS</h4>
+                                    <h4>Vault Security System</h4>
                                     <p>An automatic high lavel multi-layerd security system</p>
-                                    <a href="./img/projects/Vault_security.jpg" title="Vault Security System"
-                                        data-gallery="portfolio-gallery-Electronics" class="glightbox preview-link"><i
-                                            class="bi bi-zoom-in"></i></a>
-                                    <a href="./project_details.php?id=5" title="More Details" class="details-link"><i
-                                            class="bi bi-link-45deg"></i></a>
+                                    <a href="img/projects/Vault_security.jpg" class="preview-link" target="_new"><i class="bi bi-zoom-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-Apps">
+                            <div class="portfolio-content h-100">
+                                <img src="img/projects/careserenity2.png" class="img-fluid" alt="" loading="lazy">
+                                <div class="portfolio-info">
+                                    <h4>CareSerenity 2.0</h4>
+                                    <p>Am advanced platform for parents & organizations</p>
+                                    <a href="img/projects/careserenity2.png" class="preview-link" target="_new"><i class="bi bi-zoom-in"></i></a>
+                                    <a href="https://github.com/Anayatul-Ahad-Shoikot/careserenity" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-Apps">
+                            <div class="portfolio-content h-100">
+                                <img src="img/projects/Voting_App.png" class="img-fluid" alt="" loading="lazy">
+                                <div class="portfolio-info">
+                                    <h4>Voting App</h4>
+                                    <p>A super secured Voting App</p>
+                                    <a href="img/projects/Voting_App.png" class="preview-link" target="_new"><i class="bi bi-zoom-in"></i></a>
+                                    <a href="https://github.com/Anayatul-Ahad-Shoikot/Cyber-Security-Project" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                                 </div>
                             </div>
                         </div>
